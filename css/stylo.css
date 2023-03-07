@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+
+:root {
+  --c-size-b: #383838;
+  --c-white-b: #f3d5d5fa;
+  --c-gray: #f0f0f0;
+  --c-ssize: #797979;
+  --c-white: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "DancingScript", sans-serif;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+.header {
+  display: flex;
+  height: 100px;
+  background-color: var(--c-size-b);
+  width: 100%;
+}
+
+.nav {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.nav-brand {
+  color: var(--c-white);
+  text-decoration: none;
+}
+
+.nav-itens {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-itens a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: var(--c-white);
+}
+
+.container {
+  background-image: url(/utlis/salsacapa1.webp);
+  width: 100%;
+  height: 500px;
+  display: flex;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.container-main {
+  
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.div {
+  margin: 10%;
+  width: 500px;
+  height: 150px;
+  background: var(--c-white-b); 
+  padding: 20px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80px;
+  background-color: var(--c-size-b);
+}
+
+.footer img {
+  margin: 0 10px;
+  border-radius: 10px;
+  height: 40px;
+  width: 40px;
+}
