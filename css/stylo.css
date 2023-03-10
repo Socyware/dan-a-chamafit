@@ -61,6 +61,7 @@ body {
   display: flex;
   margin: 0;
   flex-wrap: wrap;
+  
 }
 
 .container-main {
@@ -68,9 +69,12 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  
 }
 
 .div {
+  display: flex;
+  flex-direction: column;
   margin: 10%;
   width: 80%;
   height: 250px;
@@ -78,6 +82,7 @@ body {
   padding: 20px;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
+  align-items: center;
 }
 
 .div span{
@@ -91,6 +96,8 @@ body {
 
 .div a {
   font-size: 14px;
+  text-align: center;
+
 }
 
 div p {
@@ -100,6 +107,7 @@ div p {
 .div-icon {
   display: flex;
   align-content: center;
+  
 }
 
 .div-icon img {
@@ -107,6 +115,7 @@ div p {
   border-radius: 10px;
   height: 40px;
   width: 40px;
+ 
 }
 
 .footer {
