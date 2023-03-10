@@ -14,10 +14,11 @@
 
 html,
 body {
+  background-image: url(/utlis/salsacapa1.webp);
+  flex-wrap: wrap;
   font-family: "DancingScript", sans-serif;
   margin: 0;
   padding: 0;
- 
 }
 
 .header {
@@ -30,11 +31,10 @@ body {
 .nav {
   width: 100%;
   align-items: center;
-  display: flex;
-  justify-content: space-around;
   text-decoration: none;
   font-weight: bold;
-  font-size: 28px;
+  font-size: 18px;
+  margin: 10px;
 }
 
 .nav-brand {
@@ -43,29 +43,28 @@ body {
 }
 
 .nav-itens {
+  margin-top: 20px;
   display: flex;
   list-style-type: none;
 }
 
 .nav-itens a {
-  margin-left: 30px;
+  margin-left: 20px;
   text-decoration: none;
   color: var(--c-white);
 }
 
 .container {
-  background-image: url(/utlis/salsacapa1.webp);
+  background-color: black;
   width: 100%;
-  height: 500px;
+  height: 700px;
   display: flex;
   margin: 0;
   flex-wrap: wrap;
 }
 
 .container-main {
-  
-  margin: 0;
-  padding: 0;
+  width: 100%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -73,12 +72,41 @@ body {
 
 .div {
   margin: 10%;
-  width: 500px;
-  height: 150px;
-  background: var(--c-white-b); 
+  width: 80%;
+  height: 250px;
+  background: var(--c-white-b);
   padding: 20px;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
+}
+
+.div span{
+  font-weight: bolder;
+}
+
+.div h1 {
+  text-align: center;
+  font-size: 16px;
+}
+
+.div a {
+  font-size: 14px;
+}
+
+div p {
+  text-align: center;
+}
+
+.div-icon {
+  display: flex;
+  align-content: center;
+}
+
+.div-icon img {
+  margin: 0 10px;
+  border-radius: 10px;
+  height: 40px;
+  width: 40px;
 }
 
 .footer {
