@@ -16,7 +16,7 @@ html,
 body {
   background-image: url(/utlis/salsacapa1.webp);
   flex-wrap: wrap;
-  font-family: "DancingScript", sans-serif;
+  font-family: 'DancingScript', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -29,29 +29,36 @@ body {
 }
 
 .nav {
+  display: flex;
   width: 100%;
   align-items: center;
   text-decoration: none;
   font-weight: bold;
-  font-size: 18px;
-  margin: 10px;
+  justify-content: center;
+ 
 }
 
 .nav-brand {
   color: var(--c-white);
   text-decoration: none;
+ 
 }
 
+
 .nav-itens {
-  margin-top: 20px;
+  margin-right: 50px;
   display: flex;
   list-style-type: none;
+  flex-wrap: wrap;
+  font-size: 30px;
+ 
 }
 
 .nav-itens a {
-  margin-left: 20px;
+  margin-left: 5px;
   text-decoration: none;
   color: var(--c-white);
+  
 }
 
 .container {
@@ -133,3 +140,10 @@ div p {
   height: 40px;
   width: 40px;
 }
+
+
+@media (min-width: 576px) { 
+
+
+
+ }
