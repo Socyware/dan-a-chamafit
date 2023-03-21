@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Edu+NSW+ACT+Foundation&display=swap');
 
 :root {
   --c-size-b: #383838;
@@ -14,11 +15,11 @@
 
 html,
 body {
-  background-image: url(/utlis/salsacapa1.webp);
-  flex-wrap: wrap;
-  font-family: 'DancingScript', sans-serif;
+
+  font-family: "DancingScript", sans-serif;
   margin: 0;
   padding: 0;
+
 }
 
 .header {
@@ -29,6 +30,7 @@ body {
 }
 
 .nav {
+  margin-left: 20px;
   display: flex;
   width: 100%;
   align-items: center;
@@ -41,6 +43,7 @@ body {
 .nav-brand {
   color: var(--c-white);
   text-decoration: none;
+  font-size: 18px;
  
 }
 
@@ -49,7 +52,7 @@ body {
   margin-right: 50px;
   display: flex;
   list-style-type: none;
-  flex-wrap: wrap;
+ flex-direction: row;
   font-size: 30px;
  
 }
@@ -59,6 +62,13 @@ body {
   text-decoration: none;
   color: var(--c-white);
   
+}
+
+.nav img{
+  margin: 0 ;
+  border-radius: 25px;
+  height: 50px;
+  width: 50px;
 }
 
 .container {
