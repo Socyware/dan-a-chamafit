@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Edu+NSW+ACT+Foundation&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Edu+NSW+ACT+Foundation&display=swap");
 
 :root {
   --c-size-b: #383838;
@@ -11,15 +10,14 @@
 
 * {
   box-sizing: border-box;
+  font-family: 'DancingScript', sans-serif;
 }
 
 html,
 body {
-
-  font-family: "DancingScript", sans-serif;
+  
   margin: 0;
   padding: 0;
-
 }
 
 .header {
@@ -37,48 +35,41 @@ body {
   text-decoration: none;
   font-weight: bold;
   justify-content: center;
- 
 }
 
 .nav-brand {
   color: var(--c-white);
   text-decoration: none;
   font-size: 18px;
- 
 }
 
-
 .nav-itens {
-  margin-right: 50px;
   display: flex;
   list-style-type: none;
- flex-direction: row;
-  font-size: 30px;
- 
+  flex-direction: row;
+
 }
 
 .nav-itens a {
-  margin-left: 5px;
+  margin-left: 15px;
   text-decoration: none;
   color: var(--c-white);
-  
 }
 
-.nav img{
-  margin: 0 ;
+.nav img {
+  margin: 0;
   border-radius: 25px;
   height: 50px;
   width: 50px;
 }
 
 .container {
-  background-color: black;
+  background-image: url(/utlis/salsa2.png);
   width: 100%;
   height: 700px;
   display: flex;
   margin: 0;
   flex-wrap: wrap;
-  
 }
 
 .container-main {
@@ -86,7 +77,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
 }
 
 .div {
@@ -102,7 +92,7 @@ body {
   align-items: center;
 }
 
-.div span{
+.div span {
   font-weight: bolder;
 }
 
@@ -114,7 +104,6 @@ body {
 .div a {
   font-size: 14px;
   text-align: center;
-
 }
 
 div p {
@@ -124,7 +113,6 @@ div p {
 .div-icon {
   display: flex;
   align-content: center;
-  
 }
 
 .div-icon img {
@@ -132,7 +120,6 @@ div p {
   border-radius: 10px;
   height: 40px;
   width: 40px;
- 
 }
 
 .footer {
@@ -151,9 +138,87 @@ div p {
   width: 40px;
 }
 
+.footer-shopping {
+  color: var(--c-white);
+  text-decoration: none;
+  font-size: 18px;
+}
 
-@media (min-width: 576px) { 
+@media (min-width: 576px) {
+  .nav-brand {
+    font-size: 30px;
+  }
+
+  .nav img {
+    height: 60px;
+    width: 65px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    background-image: url(/utlis/salsacapa1.webp);
+  }
+
+  .container-main {
+    flex-direction: row;
+  }
+
+  .div {
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+    width: 30%;
+    height: 250px;
+    background: var(--c-white-b);
+    padding: 20px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    align-items: flex-start;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .nav {
+    margin-left: ;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around ;
+  }
+  
+  .container {
+    margin: 0 ;
+    width: 100%;
+    height: 0 auto;
+  }
+  
+  .div {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    width: 0 auto;
+    height: 250px;
+    background: var(--c-white-b);
+    padding: 20px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    align-items: center;
+  }
+
+  .nav-itens {
+    margin-right: 70px;
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    
+  }
+
+  .nav-itens a {
+    margin-left: 40px;
+  }
 
 
-
- }
+ 
+}
